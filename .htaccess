@@ -1,0 +1,28 @@
+### PROTECT FILES ###
+
+<FilesMatch "\.(htaccess|htpasswd|ini|fla|psd|log|sh)$">
+Order Allow,Deny
+Deny from all
+</FilesMatch>
+
+Options FollowSymLinks
+RewriteEngine On
+
+
+RewriteRule cryptors deszyfrator.php [NC]
+RewriteRule converters konwertery.php [NC]
+RewriteRule lifegame lifegame.php [NC]
+RewriteRule clickbot clickbot.php [NC]
+RewriteRule about aboutme.php [NC]
+
+ErrorDocument 400 /400.php
+#bad request
+
+ErrorDocument 403 /403.php
+#access denied
+
+ErrorDocument 404 /404.php
+#not found
+
+ErrorDocument 500 /500.php
+#internal error
