@@ -51,7 +51,7 @@
 				<h1>O mnie</h1>
 				
 				<p>
-					Jestem uczniem technikum informatycznego i hobbystycznie uczę się programowania, oraz wszystkiego co leży w rozległym zbiorze informatyki i matematyki. Realizowane przeze mnie projekty i projekciki publikuję głównie w celu ich ulepszenia i ogólnej nauki. Jeżeli chciałbyś jednak z nich lub ich kodu skorzystać, to możesz to robić do woli.
+					Jestem uczniem technikum informatycznego i hobbystycznie uczę się programowania, oraz wszystkiego co leży w rozległym zbiorze informatyki i matematyki. Realizowane przeze mnie rzeczy publikuję głównie w celu ich ulepszenia i ogólnej nauki. Jeżeli chciałbyś jednak z nich lub ich kodu skorzystać, to możesz to robić do woli.
 				</p>
 				
 			</section>

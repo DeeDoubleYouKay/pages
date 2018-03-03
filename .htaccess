@@ -5,6 +5,9 @@ Order Allow,Deny
 Deny from all
 </FilesMatch>
 
+Options +Indexes
+IndexOptions FancyIndexing
+
 Options FollowSymLinks
 RewriteEngine On
 
