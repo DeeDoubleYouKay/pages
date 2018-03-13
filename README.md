@@ -1,4 +1,2 @@
 # homepage
-Project of my homepage, in Polish.
-
-I know, I have no taste.
+Project of my old homepage, in Polish.
