@@ -16,53 +16,48 @@
 <body>	
 	<main>
 	
-		<header class="logo">
-			<a href="/"><img src="img/av.png" /></a>
+		<header>
+			<a href="/">Logo</a>
 		</header>
 		
-		<nav class="leftbox">
+		<nav>
 			<ul class="menu" >
-				<li class="ab" onclick="toggle_visibility('m1');"> Narzędzia online </li>
+				<li class="ab" onclick="toggle_visibility('m1');"> First item</li>
 					<ul class="submenu m" id="m1">
-						<li>-</li>
+						<li>Item</li>
+						<li>Item</li>
 					</ul>
-				<li class="ab" onclick="toggle_visibility('m2');"> Moje projekty </li>
+				<li class="ab" onclick="toggle_visibility('m2');"> Second item</li>
 					<ul class="submenu m" id="m2">
-						<li onclick="location.href = '/clickbot';">ClickBot</li>
+						<li>Item</li>
+						<li>Item</li>
 					</ul>
-			
-				<li onclick="location.href = '/about';" class="ab"> O mnie </li>
-			<div class="contact">
-				<ol class="submenu">
-					<li> 
-					<a href="https://github.com/vellurpatrick" target="_blank"> 
-					GitHub 
-					</a>
-					</li>
-				</ol>
-			</div>
+				<li class="ab"> Links </li>
+					<ul class="submenu">
+						<li> 
+							<a href="https://github.com/vellurpatrick" target="_blank"> 
+								GitHub
+							</a>
+						</li>
+					</ul>
 			</ul>
 		</nav>
 	
 		<article class="content">
-		
 			<section>
 			
-				<h1>Witaj na stronie domowej Vellur-a!</h1>
+				<h1>Lorem ipsum</h1>
 				
 				<p>
-				To tutaj zamieszczam wszelkie projekty, oraz wszystko, nad czym aktualnie pracuję. Jeżeli chcesz dowiedzieć się czegoś więcej na temat któregoś z nich, przejdź do odpowiedniej podstrony z menu. 
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quam sapien, auctor quis convallis at, tempor eu diam. Proin ut lorem sit amet lacus viverra imperdiet quis ut justo. Sed eu magna vitae dolor sollicitudin volutpat. Curabitur mattis urna eu nisi efficitur dictum. Duis mollis nulla at enim ullamcorper gravida. Proin laoreet lacinia nulla, quis rutrum augue viverra vitae. Cras eu est nec nulla convallis egestas. Maecenas pulvinar eu est nec gravida. Donec in odio volutpat, semper lorem quis, cursus lorem. 
 				</p>
 				
 			</section>
-
 		</article>
 		
 		<footer>
-			Copyright 2018 &copy <a href="/">Vellur</a>
+			Footer
 		</footer>
-		
 	</main>
-	
 </body>
 </html>
