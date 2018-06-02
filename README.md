@@ -1,2 +1,2 @@
-# homepage
-Project of my old homepage, in Polish.
+# homepage-template
+Simple html/css website template.
