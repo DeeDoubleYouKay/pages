@@ -10,8 +10,6 @@
 	
 	<link rel="stylesheet" href="style.css">
 	
-	<script src="script.js"></script>
-	
 </head>
 <body>	
 	<main>
@@ -43,7 +41,7 @@
 			</ul>
 		</nav>
 	
-		<article class="content">
+		<article>
 			<section>
 			
 				<h1>Lorem ipsum</h1>
@@ -59,5 +57,6 @@
 			Footer
 		</footer>
 	</main>
+	<script src="script.js"></script>
 </body>
 </html>

@@ -1,8 +1,6 @@
 body
 {
 	background-color: #1d1d1d;
-	background-image: url("img/bg.png");
-	/* Background pattern from Subtle Patterns https://www.toptal.com/designers/subtlepatterns/ */
 	text-align: center;
 	font-family: Verdana;
 	font-size: calc(0.75em + 1vmin);
@@ -72,7 +70,7 @@ main > nav
 	float: left;
 }
 
-main > .content
+main > article
 {
 	width: 73%;
 	height: 700px;
@@ -84,14 +82,22 @@ main > .content
 	text-align: left;
 }
 
-main > .content > h1
+main > article > h1
 {
 	font-family: Arial;
 	color: #ffffff;
 	text-align: justify;
 }
 
-main > .content > span
+
+main > article > h1:before
+{
+	content: "";
+	display: inline-block;
+	width: 40px;
+}
+
+main > article > span
 {
 	display: block;
 	font-size: calc(0.75em + 1vmin); 
@@ -100,17 +106,10 @@ main > .content > span
 	text-align: left;
 }
 
-main > .content > span:before
+main > article > span:before
 {
 	display: inline-block;
 	width: 70px;
-}
-
-main > .content > h1:before
-{
-	content: "";
-	display: inline-block;
-	width: 40px;
 }
 
 @media only screen and (max-width: 1000px) 
@@ -124,11 +123,11 @@ main > .content > h1:before
 		line-height: 10px;
 	}
 	
-	main > .content 
+	main > article 
 	{
 		width: 90%; 
 		max-height: 
-		calc(27em + 1vmin)
+		calc(27em + 1vmin);
 	}
 	
 	.submenu > li
@@ -229,20 +228,6 @@ header
 	float: left;
 }
 
-.ss
-{
-	float: left;
-	max-width: 100%;
-    height: auto;
-}
-
-.nyc
-{
-	color: red;
-	padding-top: 20px;
-	padding-bottom: 20px;
-}
-
 section > .slink 
 { 
 	text-align: center;
@@ -250,5 +235,7 @@ section > .slink
 	
 }
 
-h1 { padding-top: 30px; }
-.clearboth { clear: both; }
+h1 
+{ 
+	padding-top: 30px; 
+}
