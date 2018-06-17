@@ -1,2 +1,2 @@
-# homepage-template
-Simple html/css website template.
+# pages
+Collection of pages templates.
